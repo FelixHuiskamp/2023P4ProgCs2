@@ -23,6 +23,13 @@ namespace ConsoleMonGame
             this.energy -= energy;
         }
 
+        static void TestFactoryFunctions()
+        {
+            Console.WriteLine("TestFactoryFunctions");
+            ConsoleMonFactory factory = new ConsoleMonFactory();
+            factory.load("monsterdata.txt");
+        }
+
     }
 
    

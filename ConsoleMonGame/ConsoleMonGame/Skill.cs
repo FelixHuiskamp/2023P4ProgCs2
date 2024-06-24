@@ -8,8 +8,8 @@ namespace ConsoleMonGame
 {
     internal class Skill
     {
-        internal int damage;
-        internal int energyCost;
+        public int damage { get; set; }
+        public int energyCost { get; set; }
         internal string name;
 
 
