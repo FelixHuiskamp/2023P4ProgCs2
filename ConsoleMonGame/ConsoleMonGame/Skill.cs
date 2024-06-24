@@ -10,7 +10,7 @@ namespace ConsoleMonGame
     {
         public int damage { get; set; }
         public int energyCost { get; set; }
-        internal string name;
+        public string name { get; set; }
 
 
         internal void UseOn(ConsoleMon target, ConsoleMon caster)
